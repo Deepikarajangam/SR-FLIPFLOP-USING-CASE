@@ -43,7 +43,8 @@ For differet input combinations generate the timing diagram.
 **PROGRAM**
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: R.DEEPIKA RegisterNumber:24900220
-*/``` module hhh(s,r,clk,q,qbar);
+*/
+``` module hhh(s,r,clk,q,qbar);
 input s,r,clk;
 output reg q;
 output reg qbar;
@@ -57,7 +58,8 @@ begin
    q=s|(~r&q);
 	qbar=r|(~s&~q);
 end
-endmodule```
+endmodule
+```
 
 **RTL LOGIC FOR FLIPFLOPS**
 
